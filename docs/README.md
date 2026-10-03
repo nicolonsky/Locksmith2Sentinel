@@ -102,7 +102,7 @@ Successfully ingested files are moved to `archive`.
 
 ## Configuration
 
-The `config.json` file is created by `install.ps1`.
+Create `config.json` by copying `config.json.example`, then add the DCE and DCR values from your deployment outputs. `install.ps1` validates and uses the existing file.
 
 An example is available in `config.json.example`.
 
